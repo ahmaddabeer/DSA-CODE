@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    vector<char> vec = { 'a', 'b', 'c', 'd'};
+    vector<char> vec = { 'a', 'b', 'c','c', 'd'};
 
     cout <<"size = " << vec.size()<<endl;// ise ham size nikalte ha vector ka
 
