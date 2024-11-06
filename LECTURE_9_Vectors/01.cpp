@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     vector<char> vec = { 'a', 'b', 'c', 'd'};
-    for (char i : vec)
+    for (char val : vec)
     {
-        cout << i << endl;
+        cout << val << endl;
     }
     return 0;
 }
