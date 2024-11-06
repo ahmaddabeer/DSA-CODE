@@ -1,4 +1,4 @@
-// Object: Write a program in c to display smallest value and greatest valus in given array.
+// Object: Write a program in c++ to display smallest value and greatest valus in given array.
 // DATE: 06|11|2024
 #include <iostream>
 #include <climits>

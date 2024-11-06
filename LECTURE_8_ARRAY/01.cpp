@@ -1,5 +1,5 @@
-
-
+// Object: Write a program in c++ to array value take by user.
+// DATE:06|11|2024
 #include <iostream>
 using namespace std;
 

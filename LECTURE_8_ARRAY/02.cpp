@@ -1,3 +1,5 @@
+//Object: Write a program in c++ to print smallest value in given array .
+//DATE: 06|11|2024
 #include <iostream>
 #include <climits>
 using namespace std;
