@@ -12,7 +12,10 @@ int main()
     cout << "After push back size = "<< vec.size()<<endl;
     vec.pop_back();//iske use se ham vector ke last se ak value ko delete kar sakte ha 
 
-    cout <<vec.back()<<endl;
+
+    cout <<vec.front()<<endl;// iska use kar ke ham pahli (front ) value display kara sakte ha vector ki 
+    cout <<vec.back()<<endl;// iska use kar ke ham back(last) value display kara sakte ha vector ki 
+
    
 
 
