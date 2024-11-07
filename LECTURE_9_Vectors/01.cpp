@@ -1,12 +1,21 @@
-// Static vs Dynamic Allocation
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+   vector<int> vec;
+   vec.push_back(0);
+   vec.push_back(1);
+   vec.push_back(2);
+   vec.push_back(3);
+   vec.push_back(5);
+   vec.push_back(6);
+   vec.push_back(7);
+   vec.push_back(8);// yaha tak capacity thi ab jase hi new element add kare gay to capacity bar kar 8 se 16 ho gai 
+   vec.push_back(9);
 
-// Static  cimpile time memeri create ho jati 
+   cout <<"size of vector is =" <<vec.size()<<endl;//9
+   cout <<"size of capacity is =" <<vec.capacity()<<endl;//16
 
-//Dynamic runtime ma memori allowcte hoti ha jase vector ma baad ma ham alag se vector ma element PUSH karte ha jisse vector ka size increase hota ha  but STATIC ma memori fix hoti ah 
 
-//  heme baat ki thi ki do type ki memeori hoti ha ak STACK MEMORI(isme static ate ha  ) or dusri HEEP MEMORI(isme dynamic ate ha )  
-
-// vector create kase hote ha memori ma 
-// first jan ha (vector<int> vec; )create karte ha to zero memori ka vector create hojata ha or jab ham(vec.push_back(0))karte ha to vector ma ak memeri allocate hojati ha 
-
-// vector internaly memeri ma ak array hi hota ha jase hame 0 push kiya to memeri ma array create hogaya or fir hab ham dubara vale dalte ha to array to bhr chuka ha to purani vali value ma jis array ma store ha usko dubble kar ke usme new value add karate ha but ye kaam automatic hotaha 
+}
