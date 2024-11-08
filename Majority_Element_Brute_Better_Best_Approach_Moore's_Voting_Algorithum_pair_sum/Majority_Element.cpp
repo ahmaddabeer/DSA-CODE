@@ -1,0 +1,1 @@
+//Object: Majority Element find
