@@ -2,23 +2,14 @@
 #include <vector>
 using namespace std;
 int main(){
-
-    int price = 19999;
-    int* alpha = &price;
+    int a = 10;
+    int* alpha = &a;
     int** bita = &alpha;
-    cout << &price<<endl;
-    cout << alpha<<endl;
-    cout << bita<<endl;
-    int*** gama = &bita;
-    cout <<gama<<endl;
-    //ab gama ka adree kisi or ma store karate ha 
-    int**** tita = &gama;
-    cout << tita;
-    
+    cout <<*&a<<endl;
+    cout <<*alpha<<endl;
+    cout <<**bita<<endl;//10
 
-  
-   
 
-    return 0;
 
-} 
+
+}
